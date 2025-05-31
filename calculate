@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Расчет калорий</title>
     <link rel="stylesheet" href="style.css">
-    <title>page2</title>
 </head>
 <body>
     <div class="calculator-container">
@@ -45,14 +43,6 @@
             </div>
             
             <button id="calculateButton">ПОСЧИТАТЬ</button>
-    <main class="main2" width="1600" height="600">
-        <div class="content2">
-            <div>
-                <div class="buttom1" width="100" height="100">ЕДА</div>
-                <div class="buttom2" width="100" height="100">ВЕС</div>
-                <div class="buttom3" width="100" height="100">КОЛИЧЕСТВО КАЛОРИЙ</div>
-            </div>
-            <div class="buttom4">ПОСЧИТАТЬ</div>
         </div>
         
         <div class="result-section" id="resultSection" style="display: none;">
@@ -73,16 +63,6 @@
                     <div class="small-circle" id="fatsCircle">
                         <div class="circle-value" id="totalFats">0</div>
                         <div class="circle-label">жиры</div>
-    </main>
-    <footer>
-        <div class="circle-wrap">
-            <div class="circle">
-                <div class="mask half">
-                    <div class="fill">
-                        <div class="mask full">
-                            <div class="fill"> 
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -97,8 +77,7 @@
                 <button id="addMoreButton">Новый расчет</button>
             </div>
         </div>
-    </div>Add commentMore actions
+    </div>
     <script src="script.js"></script>
-    </footer>
 </body>
 </html>
